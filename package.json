@@ -13,7 +13,6 @@
     "dev": "concurrently npm:sass-watch npm:browser-sync",
     "lint": "stylelint styles.scss ./**/*.scss",
     "sass-build": "sass styles.scss ./build/styles.css",
-    "copy": "cpy ./*.html ./build/ && cpy ./img/*.jpeg ./build/img && cpy ./img/*.png ./build/img  && cpy ./fonts/*.ttf ./build/fonts",
     "build": "concurrently npm:sass-build npm:copy"
   },
   "repository": {
@@ -29,7 +28,6 @@
   "dependencies": {
     "browser-sync": "^2.27.7",
     "concurrently": "^6.3.0",
-    "cpy-cli": "^3.1.1",
     "dart-sass": "^1.25.0",
     "sass": "^1.43.4",
     "stylelint": "^14.0.1",
