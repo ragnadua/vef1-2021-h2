@@ -1,3 +1,10 @@
-section list {
+.section list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.li {
+  display: flex;
+  justify-content: space-evenly;
   list-style: none;
 }
