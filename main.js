@@ -1,5 +1,12 @@
 // Sækja storage gögn og láta þau virka með þessu
 
-import { init } from "./lib/storage.js"; 
+import { fetchData, isCompleted } from "./lib/storage.js"; 
 
-console.log(init())
+
+
+const gogn = await fetchData();
+
+const localgogn = JSON.parse(window.localStorage.getItem('localStorageKey'));
+console.log(localgogn);
+//console.log(gogn);
+isCompleted();
