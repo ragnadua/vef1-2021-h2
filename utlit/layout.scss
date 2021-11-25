@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  gap: var(--gutter);
+  grid-template-rows: auto;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  width: calc(100% - (2 * var(--offset)));
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1{
+  grid-column: span 12;
+}
+
+section{
+  grid-column: span 4;
+}
+
