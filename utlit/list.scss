@@ -1,10 +1,18 @@
 section {
-  display: flex;
-  justify-content: space-evenly;
   list-style: none;
 }
-li {
+.tags {
   display: flex;
-  justify-content: space-evenly;
   list-style: none;
+}
+.tag {
+  background: lightgray;
+  margin-right: var(--spacing);
+  padding: 5px;
+  border-radius: 5px;
+}
+.categ {
+  margin-right: var(--spacing);
+  padding: 5px;
+  border-radius: 5px;
 }
