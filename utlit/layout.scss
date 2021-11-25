@@ -10,6 +10,13 @@ body {
 
 h1{
   grid-column: span 12;
+  width: auto;
+  margin: auto;
+}
+
+li{
+  padding: 1rem;
+  margin-left: 1rem;
 }
 
 section{
