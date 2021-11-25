@@ -2,4 +2,4 @@
 
 import { init } from "./lib/storage.js"; 
 
-console.log(init);
+console.log(init())
