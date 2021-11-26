@@ -18,11 +18,16 @@ Verkefnið er skrifað í SASS(SCSS), JavaScript og HTML. Við notum node.js me�
 npm install
 npm run sass
 npm run browser-sync
-npm run dev
+
 
 ```
 Eftir að við höfum hlaðið pökkum inn á tölvuna getum við athugað hvort SASS(.scss) skrár fylgi viðmiðunarreglum með viðbótinni stylelint. Til að nýta okkur hana skrifum við í rót verkefnisins
 ```zsh
+npm run lint
+```
+Til að keyra skal nota eftirfarandi skipanir
+```zsh
+npm run dev
 npm run lint
 ```
 ## Uppsetning
